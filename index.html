@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Sanjey JJ</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <section id="profile">
+        <div class="profile-grid">
+          <div class="profile-image">
+            <img src="../black.jpg" alt="Profile picture" class="main-pic" />
+          </div>
+          <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Sanjey JJ</h1>
+            <p class="section__text__p2">Jr. Frontend Developer</p>
+            <div class="btn-container">
+              <button class="btn btn-color-2" onclick="window.open('Sanjey JJ.pdf')">
+                <i class="fas fa-download"></i> Download CV
+              </button>
+              <button class="btn btn-color-1" onclick='location.href="#contact"'>
+                <i class="fas fa-envelope"></i> Contact Info
+              </button>
+            </div>
+            <div id="socials-container">
+              <a href="https://www.linkedin.com/in/jj-sanjey-29626a291/" class="social-link">
+                <img src="../linkedin.png" alt="LinkedIn" class="icon" />
+              </a>
+              <a href="https://github.com/Sanjeyj" class="social-link">
+                <img src="../github.png" alt="GitHub" class="icon" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="section-header">
+          <p class="section__text__p1">Get To Know More</p>
+          <h1 class="title">About Me</h1>
+        </div>
+        <div class="about-grid">
+          <div class="text-container">
+            <p>
+              During my time at Eshwar, I had the opportunity to learn from some of the brightest minds in computer science. I took courses in a wide range of topics, including algorithms and data structures, software engineering, artificial intelligence, machine learning, natural language processing, and computer vision. I am passionate about using computer science to solve real-world problems.
+            </p>
+          </div>
+          <div class="stats-container">
+            <div class="details-container">
+              <img src="../experience.png" alt="Experience icon" class="icon" />
+              <h3>Experience</h3>
+              <p>2+ years <br />Frontend Development</p>
+            </div>
+            <div class="details-container">
+              <img src="../education.png" alt="Education icon" class="icon" />
+              <h3>Education</h3>
+              <p>B.E.Engineering & Computer science</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="education">
+        <div class="section-header">
+          <p class="section__text__p1">Explore My</p>
+          <h1 class="title">Fields of expertise</h1>
+        </div>
+        <div class="skills-grid">
+          <div class="skills-category">
+            <h2 class="experience-sub-title">Programming Languages</h2>
+            <div class="skills-list">
+              <div class="skill-item">
+                <img src="../checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Python</h3>
+                  <p>Intermediate</p>
+                </div>
+              </div>
+              <div class="skill-item">
+                <img src="../checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>C</h3>
+                  <p>Expert</p>
+                </div>
+              </div>
+              <div class="skill-item">
+                <img src="../checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Java</h3>
+                  <p>Beginner</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <div class="section-header">
+          <p class="section__text__p1">Browse My Recent</p>
+          <h1 class="title">Projects</h1>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image-container">
+              <img src="../CALCULATOR.png" alt="Calculator Project" class="project-image" />
+            </div>
+            <div class="project-content">
+              <h3>Calculator App</h3>
+              <p>A modern calculator application with advanced features</p>
+              <a href="https://github.com/yourusername/calculator-app" class="github-btn" target="_blank">View on GitHub</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image-container">
+              <img src="../GAME.png" alt="Game Project" class="project-image" />
+            </div>
+            <div class="project-content">
+              <h3>Interactive Game</h3>
+              <p>An engaging browser-based game experience</p>
+              <a href="https://github.com/yourusername/interactive-game" class="github-btn" target="_blank">View on GitHub</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image-container">
+              <img src="../VALIDATION FORM.png" alt="Validation Form" class="project-image" />
+            </div>
+            <div class="project-content">
+              <h3>Form Validation</h3>
+              <p>Advanced form validation with real-time feedback</p>
+              <a href="https://github.com/yourusername/form-validation" class="github-btn" target="_blank">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="section-header">
+          <p class="section__text__p1">Get in Touch</p>
+          <h1 class="title">Contact Me</h1>
+        </div>
+        <div class="contact-wrapper">
+          <div class="contact-card">
+            <div class="contact-card-header">
+              <h3>Let's Connect</h3>
+              <p>Feel free to reach out for collaborations or just a friendly hello</p>
+            </div>
+            <div class="contact-methods">
+              <a href="mailto:sanjayjayaseelan@gmail.com" class="contact-item">
+                <div class="contact-icon">
+                  <img src="../email.png" alt="Email" class="icon" />
+                </div>
+                <div class="contact-details">
+                  <h4>Email</h4>
+                  <span>sanjayjayaseelan@gmail.com</span>
+                </div>
+              </a>
+              <a href="https://www.linkedin.com/in/jj-sanjey-29626a291/" class="contact-item">
+                <div class="contact-icon">
+                  <img src="../linkedin.png" alt="LinkedIn" class="icon" />
+                </div>
+                <div class="contact-details">
+                  <h4>LinkedIn</h4>
+                  <span>Connect with me</span>
+                </div>
+              </a>
+              <a href="https://github.com/Sanjeyj" class="contact-item">
+                <div class="contact-icon">
+                  <img src="../github.png" alt="GitHub" class="icon" />
+                </div>
+                <div class="contact-details">
+                  <h4>GitHub</h4>
+                  <span>Check out my projects</span>
+                </div>
+              </a>
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="contact-details">
+                  <h4>Location</h4>
+                  <span>Bangalore, India</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Sanjey JJ</h3>
+          <p>Frontend Developer | UI/UX Designer</p>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Connect</h3>
+          <div class="footer-social">
+            <a href="https://www.linkedin.com/in/jj-sanjey-29626a291/">
+              <img src="../linkedin.png" alt="LinkedIn" class="icon" />
+            </a>
+            <a href="https://github.com/Sanjeyj">
+              <img src="../github.png" alt="GitHub" class="icon" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Sanjey JJ. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
